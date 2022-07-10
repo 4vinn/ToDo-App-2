@@ -2,7 +2,7 @@
 
 HTML | CSS | JS | Uses LocalStorage to store data
 
-<b><h3>Live on:-</h3></b>
+<h3>Live on:-</h3>
 - <b>Github</b>:https://vineet-jakhar.github.io/ToDo-App-2/
 - <b>Netlify</b>:https://candid-lebkuchen-a998c5.netlify.app/
 
