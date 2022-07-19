@@ -287,26 +287,4 @@ function addTodoElem(todoText, isNew = true) {
 /***  START OF INSTRUCTIONS     ***/
 /**********************************/
 
-function init() {
-   const starterList = [
-      "Complete online JavaScript course",
-      "Jog around the park 3x",
-      "10 minutes meditation",
-      "Read for 1 hour",
-      "Pick up groceries",
-      "Complete Todo App on Frontend Mentor",   
-   ];
 
-   if (localStorage.getItem("isFirstVisit") === null || localStorage.getItem("isFirstVisit") === false){
-      localStorage.setItem("isFirstVisit", true);
-      starterList.forEach((item) => {
-         addTodoElem(item);
-      });
-      changeActiveStatus(todoArray[0].DOMelem);
-   }
-   else {
-      getLocalStorage();
-   }
-}
-
-init();
